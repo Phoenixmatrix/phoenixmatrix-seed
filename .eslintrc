@@ -1,0 +1,22 @@
+{
+  "extends": "eslint-config-airbnb",
+  "rules":  {
+    "max-len": [2, 117, 2],
+    "comma-dangle": [2, "never"],
+    "no-extra-strict": 0,
+    "func-names": 2,
+    "no-console": 1,
+    "no-debugger": 2,
+    "no-alert": 2,
+    "no-constant-condition": 2
+  },
+  "ecmaFeatures": {
+    "generators": true
+  },
+  "globals": {
+  },
+  "env": {
+    "mocha": true,
+    "worker": true
+  }
+}
