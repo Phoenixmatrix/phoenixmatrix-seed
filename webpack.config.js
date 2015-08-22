@@ -35,6 +35,10 @@ module.exports = {
         test: /\.jsx$/,
         loaders: ['react-hot', 'babel'],
         include: path.join(__dirname, 'src/components')
+      },
+      {
+        test: /\.less$/,
+        loader: 'style!css?sourceMap!less?sourceMap=true'
       }
     ]
   },
